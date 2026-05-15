@@ -75,6 +75,11 @@ export default function RootLayout({
             </div>
           )}
         </div>
+<<<<<<< Updated upstream
+=======
+        {!isCopilot && <SupportChat />}
+        </ThemeProvider>
+>>>>>>> Stashed changes
       </body>
     </html>
   );
